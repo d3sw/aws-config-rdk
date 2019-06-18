@@ -2122,7 +2122,8 @@ class rdk:
               {
                 "Sid": "3",
                 "Action": [
-                  "config:PutEvaluations"
+                  "config:PutEvaluations",
+                  "events:PutEvents"
                 ],
                 "Effect": "Allow",
                 "Resource": "*"
